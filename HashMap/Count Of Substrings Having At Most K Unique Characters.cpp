@@ -44,3 +44,4 @@ int main() {
     cin >> str >> k;
 	cout << solution(str,k);
 }
+//question link -> https://nados.io/question/count-of-substrings-having-at-most-k-unique-characters?zen=true
