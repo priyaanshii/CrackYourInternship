@@ -33,4 +33,23 @@ public:
             
             return;
     }
+    /*
+void dfs(vector<bool>&visited,vector<vector<int>>& graph,int n,int curcity)
+    {
+            if(visited[curcity])
+                    return;
+            
+            visited[curcity]=true;
+            
+            vector<int>neigh = graph[curcity];
+            
+            for(int i=0;i<n;i++)
+            {
+                    if(neigh[i]==1)
+                            dfs(visited,graph,n,i);
+            }
+            
+            return;
+    }
+*/
 };
