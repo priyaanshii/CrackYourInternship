@@ -1,5 +1,7 @@
 class Solution {
 public:
+    //time complexity : O(exponential)
+    //space complexity : O(catalan number)
     vector<string> generateParenthesis(int n) {
         vector<string>ans;
         solve(0,0,"",n,ans);
